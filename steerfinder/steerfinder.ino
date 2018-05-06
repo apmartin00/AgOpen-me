@@ -1,5 +1,8 @@
 #include <Wire.h>
-  // Use this code to print sensor counts & steer angle to monitor
+
+  // Use this code to print sensor counts & steer angle to monitor & setup steering for 4WS or Accusteer.
+  //first get & record sensor data, calculate steeringPosition2 to match steeringPosition, change map(steeringPosition2.....) values to correct for machine.
+  
  //steering variables
   int numsteersensor = 1;    // 4WS or Case stx accusteer = 2, normal 2WS or Artic = 1
   float steerAngleActual = 0;
